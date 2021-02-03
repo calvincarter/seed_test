@@ -9,7 +9,7 @@
     "lint": "eslint --quiet .",
     "fix": "eslint --fix .",
     "watch": "nodemon server.js",
-    "heroku-postbuild": "sequelize db:seed:all"
+    "heroku-postbuild": "npx sequelize db:seed:all"
   },
   "keywords": [],
   "author": "",
